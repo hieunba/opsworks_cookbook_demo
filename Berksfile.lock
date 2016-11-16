@@ -1,0 +1,14 @@
+DEPENDENCIES
+  opsworks_cookbook_demo
+    path: .
+    metadata: true
+
+GRAPH
+  application (5.0.0)
+    poise (~> 2.4)
+    poise-service (~> 1.0)
+  opsworks_cookbook_demo (0.1.0)
+    application (= 5.0.0)
+  poise (2.7.1)
+  poise-service (1.4.2)
+    poise (~> 2.0)
