@@ -6,6 +6,6 @@
 directory "Create a directory" do
 	group "root"
 	mode "0755"
-	ower "ubuntu"
+	owner "ubuntu"
 	path "/tmp/create-directory-demo"
 end
